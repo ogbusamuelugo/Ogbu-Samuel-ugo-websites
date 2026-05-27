@@ -1,42 +1,177 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Sam Network</title>
-  <style>
-    body{
-      background:#111;
-      color:white;
-      text-align:center;
-      font-family:Arial;
-      padding-top:100px;
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sam Network</title>
 
-    h1{
-      color:#00ff99;
-      font-size:40px;
-    }
+<style>
 
-    p{
-      font-size:20px;
-    }
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
 
-    button{
-      padding:12px 25px;
-      border:none;
-      border-radius:10px;
-      background:#00ff99;
-      font-size:18px;
-    }
-  </style>
+body{
+    background:#0f172a;
+    color:white;
+}
+
+/* HERO SECTION */
+
+.hero{
+    height:100vh;
+    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)),
+    url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3');
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:20px;
+}
+
+.hero-content h1{
+    font-size:55px;
+    margin-bottom:15px;
+    color:#00ffae;
+}
+
+.hero-content p{
+    font-size:20px;
+    margin-bottom:25px;
+}
+
+.btn{
+    display:inline-block;
+    padding:14px 30px;
+    background:#00ffae;
+    color:black;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:white;
+}
+
+/* ABOUT SECTION */
+
+.about{
+    padding:70px 20px;
+    text-align:center;
+}
+
+.about h2{
+    font-size:40px;
+    margin-bottom:20px;
+    color:#00ffae;
+}
+
+.about p{
+    max-width:700px;
+    margin:auto;
+    font-size:18px;
+    line-height:1.8;
+}
+
+/* SOCIAL SECTION */
+
+.social{
+    padding:60px 20px;
+    text-align:center;
+    background:#111827;
+}
+
+.social h2{
+    margin-bottom:20px;
+    color:#00ffae;
+}
+
+.social a{
+    display:inline-block;
+    margin:10px;
+    padding:12px 25px;
+    background:#00ffae;
+    color:black;
+    text-decoration:none;
+    border-radius:25px;
+    font-weight:bold;
+}
+
+/* FOOTER */
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:black;
+    color:#aaa;
+}
+
+</style>
 </head>
 
 <body>
 
-  <h1>Welcome to Sam Network</h1>
+<!-- HERO -->
 
-  <p>This is my first website hosted on GitHub.</p>
+<section class="hero">
 
-  <button>Follow Me</button>
+<div class="hero-content">
+
+<h1>Sam Network</h1>
+
+<p>Welcome to my official website.  
+Entertainment, updates, reactions and more.</p>
+
+<a href="#" class="btn">Follow Me</a>
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section class="about">
+
+<h2>About Me</h2>
+
+<p>
+I am a digital creator passionate about entertainment,
+social media content, trending updates and building
+an online community.
+</p>
+
+</section>
+
+<!-- SOCIAL -->
+
+<section class="social">
+
+<h2>Connect With Me</h2>
+
+<a href="#">Facebook</a>
+
+<a href="#">Instagram</a>
+
+<a href="#">TikTok</a>
+
+<a href="#">YouTube</a>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+<p>© 2026 Sam Network | All Rights Reserved</p>
+
+</footer>
 
 </body>
-</html>
+  </html>
